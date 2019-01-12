@@ -27,6 +27,8 @@ body {
   align-items: center;
   margin: 15px 0px;
   margin-right: 0px;
+  overflow-wrap: break-word;
+  overflow: hidden;
 }
 
 .evenAndOddPB {
@@ -34,7 +36,9 @@ body {
 }
 
 .filterObjectPB {
-  height: 390px
+  /* height: 390px */
+  /* height: 495px; */
+  height: 665px;
 }
 
 .filterStringPB {
@@ -60,10 +64,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
+  overflow-wrap: break-word;
+  overflow: hidden;
 }
 
 .filterObjectRB {
-  height: 95px;
+  /* height: 95px; */
+  height: 200px;
 }
 
 .filterStringRB {

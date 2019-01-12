@@ -12,8 +12,8 @@ class EvenAndOdd extends Component {
     handleChange(val){
         this.setState({ userInput: val })
     }
-    assignEvenAndOdds(userInput){
-        var arr = userInput.split(',')
+    assignEvenAndOdds(val){
+        var arr = val.split(',')
         let evens = []
         let odds = []
         for(let i=0;i<arr.length;i++){
